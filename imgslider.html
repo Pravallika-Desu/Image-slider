@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Slider</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="slider-container">
+        <div class="slider">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKeotkfg4wxMPiFwVWIYxKDYhuGTq1ycT2oA&s" class="active" alt="Image 1">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcScuk9xlRm73e_aCG2GbAtGbxRgXBvN4qHBMA&s" alt="Image 2">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBzIWZv9_zoq1IzHxMkwzLDYCVRrZhXn4rdw&s" alt="Image 3">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQiFq6CojXR-f_kviK-XKupHBC_LjHO2RUppg&s" alt="Image 4">
+        </div>
+
+        <!-- Navigation Buttons -->
+        <button id="prev" class="nav-btn">&#10094;</button>
+        <button id="next" class="nav-btn">&#10095;</button>
+
+        <!-- Dots for Navigation -->
+        <div class="dots-container">
+            <span class="dot active" onclick="currentSlide(0)"></span>
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
