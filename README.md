@@ -19,7 +19,7 @@ This is a **responsive image slider** built using **HTML, CSS, and JavaScript**.
 
 ## 🚀 Installation & Setup
 1. **Clone the repository**  
-  
+  https://github.com/Pravallika-Desu/Image-slider.git
    
 2. Navigate to the project folder
 cd image-slider
