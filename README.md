@@ -22,15 +22,16 @@ This is a **responsive image slider** built using **HTML, CSS, and JavaScript**.
   https://github.com/Pravallika-Desu/Image-slider.git
    
 2. Navigate to the project folder
-cd image-slider
+cd imageslider
 
-3. Open index.html in a browser
+3. Open imgslider.html in a browser
 
 📝 Usage
 Click the Next or Previous buttons to navigate images.
 The slider will auto-slide every 3 seconds.
 Pause on Hover to stop the auto-sliding effect.
 Use left/right arrow keys for navigation.
+
 🔧 Future Enhancements
 🔹 Add swipe gestures for mobile users 📱
 🔹 Implement lazy loading for better performance 🚀
